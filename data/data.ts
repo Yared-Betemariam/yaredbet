@@ -41,4 +41,16 @@ export const works = [
       "/works/vt5.png",
     ],
   },
+  {
+    desc: "They gave me a the design, I turned it into a website.",
+    title: "Beauty product",
+    repo: "#",
+    photos: [
+      "/works/ex-main.png",
+      "/works/ex1.png",
+      "/works/ex2.png",
+      "/works/ex3.png",
+      "/works/ex4.png",
+    ],
+  },
 ];
