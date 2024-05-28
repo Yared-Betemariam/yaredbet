@@ -4,7 +4,7 @@ import { Button } from "./ui/button";
 /* eslint-disable react/no-unescaped-entities */
 const HeroSection = () => {
   return (
-    <section className="wrapper flex pt-20">
+    <section className="wrapper flex pt-10 sm:pt-20">
       <div className="flex flex-col py-14 gap-5 md:gap-6">
         <span className="font-mono bg-gray-50 p-2 md:p-3 px-3 md:px-6 shadow-md rounded border-primary/75 mr-auto border-[2px] border-t-[.6rem] md:border-t-[1rem] text-gray-900 transform rotate-[-4deg] animate-rotate drop-shadow-md text-base md:text-lg">
           hello, my name is
