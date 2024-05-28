@@ -25,9 +25,7 @@ const TestimonialsSection = () => {
   return (
     <section id="testimonials" className="wrapper flex flex-col">
       <div className="flex flex-col py-20 gap-4">
-        <h2 className="text-4xl md:text-5xl font-extrabold mx-auto">
-          Testimonials
-        </h2>
+        <h2 className="text-4xl md:text-5xl font-bold mx-auto">Testimonials</h2>
         <p className="mx-auto text-base md:text-lg opacity-80 mb-12">
           Here are some of my past clients
         </p>

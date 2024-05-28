@@ -29,7 +29,7 @@ const ContactSection = () => {
       className="wrapper py-20 flex flex-col items-center justify-center gap-6 text-gray-800"
     >
       <div className="flex flex-col gap-3 items-center text-center justify-center max-w-md mx-auto">
-        <h2 className="text-4xl md:text-5xl font-extrabold">Get in touch</h2>
+        <h2 className="text-4xl md:text-5xl font-bold">Get in touch</h2>
         <p className="opacity-80 text-base md:text-lg">
           Leave a message if you have any projects in mind, I'd be happy to
           help”

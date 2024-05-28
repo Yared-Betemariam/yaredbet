@@ -1,10 +1,18 @@
 import type { Metadata } from "next";
-import { Hanken_Grotesk, Rubik, Space_Grotesk } from "next/font/google";
+import {
+  Hanken_Grotesk,
+  Inter,
+  Lexend_Deca,
+  Montserrat,
+  Nunito,
+  Rubik,
+  Space_Grotesk,
+} from "next/font/google";
 import "./globals.css";
 import Nav from "@/components/Nav";
 import Footer from "@/components/Footer";
 
-const font = Space_Grotesk({ subsets: ["latin"] });
+const font = Hanken_Grotesk({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
   title: "Yared Bet.",

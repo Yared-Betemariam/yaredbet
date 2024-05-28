@@ -7,7 +7,7 @@ const WorksSection = () => {
   return (
     <section id="works" className="wrapper flex flex-col">
       <div className="flex flex-col py-20 gap-4">
-        <h2 className="text-4xl md:text-5xl font-black mx-auto">
+        <h2 className="text-4xl md:text-5xl font-bold mx-auto">
           My Past works
         </h2>
         <p className="mx-auto text-base md:text-lg opacity-80 mb-12">
