@@ -25,7 +25,7 @@ const ProjectSheet = ({ project }: { project: (typeof works)[0] }) => {
       <SheetTrigger asChild>
         <div
           key={project.title}
-          className="flex relative h-48 sm:h-64 md:h-80 flex-col ring-1 ring-gray-900/45 min-w-[20rem] sm:min-w-[22rem] md:min-w-[28rem] gap-4 rounded-[1.5rem] justify-end p-4 group/probox"
+          className="flex relative h-48 sm:h-64 lg:h-80 flex-col ring-1 ring-gray-900/45 min-w-[20rem] sm:min-w-[22rem] lg:min-w-[28rem] gap-4 rounded-[1.5rem] justify-end p-4 group/probox"
         >
           {/* <div className="relative h-56"> */}
           <Image
