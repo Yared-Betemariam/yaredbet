@@ -6,7 +6,7 @@ import ProjectSheet from "./ProjectSheet";
 const WorksSection = () => {
   return (
     <section id="works" className="wrapper flex flex-col">
-      <div className="flex flex-col py-20 gap-4">
+      <div className="flex flex-col py-24 gap-4">
         <h2 className="text-4xl md:text-5xl font-bold mx-auto">
           My Past works
         </h2>

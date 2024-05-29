@@ -37,7 +37,7 @@ const MenuSheet = () => {
   return (
     <Sheet>
       <SheetTrigger
-        className="flex items-center justify-center sm:hidden w-full h-full inset-0 rounded-full hover:bg-primary px-2.5 sm:hover:bg-white/75 sm:hover:bg-text-gray-900 hover:text-gray-50 duration-300 group/trigger transition-all"
+        className="flex items-center justify-center sm:hidden w-full h-full inset-0 rounded-full hover:bg-primary px-2 sm:hover:bg-white/75 sm:hover:bg-text-gray-900 hover:text-gray-50 duration-300 group/trigger transition-all border border-gray-900/20"
         asChild
       >
         <IoMenu className="text-gray-800 group-hover/trigger:text-gray-50 duration-300 transition-all" />

@@ -26,7 +26,7 @@ const ContactSection = () => {
   return (
     <section
       id="contact"
-      className="wrapper py-20 flex flex-col items-center justify-center gap-6 text-gray-800"
+      className="wrapper py-24 flex flex-col items-center justify-center gap-6 text-gray-800"
     >
       <div className="flex flex-col gap-3 items-center text-center justify-center max-w-md mx-auto">
         <h2 className="text-4xl md:text-5xl font-bold">Get in touch</h2>

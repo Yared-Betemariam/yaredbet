@@ -75,6 +75,10 @@ const config = {
       backgroundImage: {
         pattern: "url('/pattern.png')",
       },
+      screens: {
+        xxs: "360px",
+        xs: "430px",
+      },
     },
   },
   plugins: [require("tailwindcss-animate")],

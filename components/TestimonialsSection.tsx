@@ -29,11 +29,11 @@ const TestimonialsSection = () => {
         <p className="mx-auto text-base md:text-lg opacity-80 mb-12">
           Here are some of my past clients
         </p>
-        <div className="grid  grid-cols-1 md:grid-cols-2 gap-20 mx-auto">
+        <div className="grid  grid-cols-1 md:grid-cols-2 gap-20 mx-auto px-2">
           {testimonials.map((item) => (
             <div
               key={item.name}
-              className="flex flex-col p-6 px-3 w-full max-w-[19.5rem] md:max-w-[22rem] gap-4 rounded-3xl"
+              className="flex flex-col p-6 px-3 w-full max-w-[24rem] md:max-w-[22rem] gap-4 rounded-3xl"
             >
               <div className="relative px-4 py-2">
                 <span className="text-5xl md:text-6xl font-bold absolute -top-6 -left-6 opacity-80">

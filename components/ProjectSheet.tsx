@@ -25,16 +25,16 @@ const ProjectSheet = ({ project }: { project: (typeof works)[0] }) => {
       <SheetTrigger asChild>
         <div
           key={project.title}
-          className="flex relative h-48 sm:h-64 lg:h-80 flex-col ring-1 ring-gray-900/45 min-w-[20rem] sm:min-w-[22rem] lg:min-w-[28rem] gap-4 rounded-[1.5rem] justify-end p-4 group/probox"
+          className="flex relative h-48 xxs:h-56 xs:h-64 sm:h-72 lg:h-80 flex-col ring-[0.5px] ring-gray-900/45 min-w-[17rem] xxs:min-w-[20rem] xs:min-w-[24rem] w-full sm:min-w-[28rem] md:min-w-[23rem] lg:min-w-[26rem] gap-4 rounded-[1rem] justify-end p-4 group/probox drop-shadow-md"
         >
           {/* <div className="relative h-56"> */}
           <Image
             src={project.photos[0]}
             alt={project.title}
             fill
-            className="object-center object-cover rounded-[1.5rem] shadow-md"
+            className="object-center object-cover rounded-[1rem] shadow-md"
           />
-          <div className="flex items-center justify-between p-4 z-10 bg-gray-50 rounded-2xl shadow-md absolute -bottom-8 mx-8 group/box gap-2 pr-6 hover:pr-4 duration-300 transition-all inset-x-0 group-hover/probox:pr-4">
+          <div className="flex items-center justify-between p-2.5 md:p-3.5 z-10 bg-gray-50 rounded-2xl shadow-md absolute -bottom-6 md:-bottom-8 mx-8 group/box gap-2 pr-6 hover:pr-4 duration-300 transition-all inset-x-0 group-hover/probox:pr-4">
             <div className="flex items-center gap-4 px-4">
               <span className="text-base md:text-lg font-bold">
                 {project.title}
