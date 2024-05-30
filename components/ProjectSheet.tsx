@@ -49,12 +49,15 @@ const ProjectSheet = ({ project }: { project: (typeof works)[0] }) => {
       </SheetTrigger>
       <SheetContent
         side={"bottom"}
-        className="h-[90vh] max-w-[46rem] mx-auto rounded-t-xl py-12 "
+        className="h-[90vh] max-w-[46rem] mx-auto rounded-t-xl py-14 md:py-12 "
       >
         <Carousel className="mx-4 sm:mx-8 md:mx-12 ring-1 ring-gray-900/30 shadow-md">
           <CarouselContent className="">
             {images.map((item) => (
-              <CarouselItem className="relative h-[50vh]" key={item}>
+              <CarouselItem
+                className="relative h-[25vh] xxs:h-[28vh] xs:h-[38vh] sm:h-[47vh] md:h-[50vh]"
+                key={item}
+              >
                 <Image
                   src={item}
                   alt="project photos"
