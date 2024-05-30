@@ -25,7 +25,7 @@ const ProjectSheet = ({ project }: { project: (typeof works)[0] }) => {
       <SheetTrigger asChild>
         <div
           key={project.title}
-          className="flex relative h-48 xxs:h-56 xs:h-64 sm:h-72 lg:h-80 flex-col ring-[0.5px] ring-gray-900/45 min-w-[17rem] xxs:min-w-[20rem] xs:min-w-[24rem] w-full sm:min-w-[28rem] md:min-w-[23rem] lg:min-w-[26rem] gap-4 rounded-[1rem] justify-end p-4 group/probox drop-shadow-md"
+          className="flex relative h-48 xxs:h-56 xs:h-64 sm:h-72 lg:h-[19rem] flex-col ring-[0.5px] ring-gray-900/45 min-w-[17rem] xxs:min-w-[20rem] xs:min-w-[24rem] w-full sm:min-w-[28rem] md:min-w-[23rem] lg:min-w-[28rem] gap-4 rounded-[1rem] justify-end p-4 group/probox drop-shadow-md"
         >
           {/* <div className="relative h-56"> */}
           <Image
@@ -49,9 +49,9 @@ const ProjectSheet = ({ project }: { project: (typeof works)[0] }) => {
       </SheetTrigger>
       <SheetContent
         side={"bottom"}
-        className="h-[90vh] max-w-[44rem] mx-auto rounded-t-xl py-10"
+        className="h-[90vh] max-w-[46rem] mx-auto rounded-t-xl py-12 "
       >
-        <Carousel className="mx-14 md:mx-20 ring-1 ring-gray-900/30 shadow-md">
+        <Carousel className="mx-4 sm:mx-8 md:mx-12 ring-1 ring-gray-900/30 shadow-md">
           <CarouselContent className="">
             {images.map((item) => (
               <CarouselItem className="relative h-[50vh]" key={item}>
