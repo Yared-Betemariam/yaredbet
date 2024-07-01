@@ -14,14 +14,14 @@ const ContactSection = () => {
       icon: <FaGithub />,
       link: "https://github.com/Yared-Betemariam",
     },
-    {
-      icon: <FaTwitter />,
-      link: "https://twitter.com/thecodingray",
-    },
-    {
-      icon: <FaInstagram />,
-      link: "https://www.instagram.com/yaredoray/",
-    },
+    // {
+    //   icon: <FaTwitter />,
+    //   link: "https://twitter.com/thecodingray",
+    // },
+    // {
+    //   icon: <FaInstagram />,
+    //   link: "https://www.instagram.com/yaredoray/",
+    // },
   ];
   return (
     <section
