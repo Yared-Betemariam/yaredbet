@@ -30,8 +30,8 @@ const Nav = () => {
     setPathname(`#${window.location.href.split("#")[1]}`);
   }, []);
   return (
-    <header className="fixed top-4 w-full inset-x-0 pb-1 z-50 flex px-6">
-      <nav className="flex items-center justify-between mx-auto w-full max-w-[64rem] h-12 md:h-16 pl-1 py-0 pr-1 sm:pr-8 md:pr-10 rounded-full border border-gray-900/15 backdrop-blur-md bg-white/55">
+    <header className="fixed top-4 w-full inset-x-0 pb-1 z-50 flex px-2">
+      <nav className="wrapper flex items-center justify-between w-full h-14 md:h-16 pl-1.5 py-0 pr-1.5 sm:pr-8 md:pr-10 rounded-full border border-gray-900/25  bg-white">
         <Logo />
         <div className="flex items-center gap-12">
           {navLinks.map((item) => (

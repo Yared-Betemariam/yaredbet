@@ -42,7 +42,7 @@ const MenuSheet = () => {
       >
         <IoMenu className="text-gray-800 group-hover/trigger:text-gray-50 duration-300 transition-all" />
       </SheetTrigger>
-      <SheetContent className="rounded-l-xl w-56 py-10 flex flex-col px-8 gap-2">
+      <SheetContent className="rounded-xl w-56 h-[50vh] mt-12 mr-10 py-10 flex flex-col px-8 gap-2">
         {navLinks.map((item) => (
           <SheetClose
             key={item.name}
